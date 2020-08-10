@@ -1,0 +1,524 @@
+/*==========  Desktop First  ==========*/
+
+@media only screen and (max-width: 1880px) {
+    .header__imgPhone{
+        max-width: 75%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .header__imgPhone{
+        max-width: 65%;
+        height: 415px;
+    }
+    .header__btn{
+        top: 41%;
+    }
+}
+
+@media only screen and (max-width: 1370px) {
+    .header__imgPhone{
+        max-width: 55%;
+        height: 415px;
+    }
+    .header__btn{
+        top: 41%;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1169px) {
+    .heading{
+        position: relative;
+    }
+    .heading nav{
+        display: none;
+        position: absolute;
+        right: -15px;
+        top: 0;
+        background: #ee7752;
+        padding: 30px;
+    }
+    .heading nav .menu{
+        flex-direction: column;
+    }
+    .heading nav .menu li:last-child{
+        display: none;
+    }
+    /*  Hamburger  */
+    .hamburger{
+        display: flex;
+        outline: none;
+        padding: 0;
+    }
+    .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after{
+        background: #ffffff;
+    }
+    .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner:after, .hamburger.is-active .hamburger-inner:before{
+        background: #ffffff;
+    }
+    .header__imgPhone{
+        width: 45%;
+        height: 336px;
+        top: 70px;
+        left: 0;
+    }
+    .header__btn{
+        display: none;
+    }
+    .about_us-imgcode{
+        width: 511px;
+        height: 286px;
+        top: 200px;
+    }
+    .reviews{
+        width: 98%;
+    }
+    .rev h3{
+        font-size: 20px;
+        position: relative;
+    }
+    .rev__main{
+        position: relative;
+        top: 10px;
+    }
+    .titles{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .utp__p{
+        height: auto;
+    }
+    #our_dev .title{
+        left: 0;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .header__imgPhone, .our_dev__row-img, .services-img, .box1__img-girl, .menu__btn, .header__btn{
+        display: none;
+    }
+    .box1__main{
+        left: 25%;
+    }
+    .general{
+        left: 317px;
+    }
+    .titles{
+        position: relative;
+        top: -35px;
+    }
+    .header__box .image img{
+        display: none;
+    }
+    .titles_first{
+        margin-top: 10px;
+    }
+    .develop_item{
+        width: 100%;
+    }
+    .rev{
+        width: calc(100% / 2 - 104px);
+        margin-bottom: 36px;
+    }
+    footer p{
+        left: -18px;
+    }
+    .header__btn{
+        display: none;
+    }
+    .our_dev__row, .utp__flex, .about_us-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .reviews{
+        flex-direction: column;
+        align-items: center;
+    }
+    .callback-icon{
+        display: none;
+    }
+    .circlearrow, .arrow-fill, .img-arrow{
+        display: none;
+    }
+    .about_us-imgcode{
+        top: 38px;
+        left: 1px;
+    }
+    .utp__stick{
+        left: 332px;
+    }
+    .utp__p{
+        top: 20px;
+    }
+    .circle{
+        display: none;
+    }
+    .decor{
+        order: 1;
+        margin-top: 20px;
+    }
+    #our_dev{
+        padding-bottom: 30px;
+    }
+    .services_item{
+        width: calc(50% - 30px);
+        margin-bottom: 15px;
+    }
+    .team img{
+        width: 150px;
+        height: 150px;
+    }
+    .contact a img{
+        width: 25px ;
+        height: 25px;
+    }
+    #our_dev .title{
+        left: 0;
+    }
+    .services{
+        left: 12%;
+        position: relative;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .header__imgPhone, .our_dev__row-img, .services-img, .box1__img-girl, .menu__btn, .header__btn{
+        display: none;
+    }
+    .box1__main{
+        left: 123px;
+    }
+    .general{
+        left: 317px;
+    }
+    .titles{
+        position: relative;
+        top: -35px;
+    }
+    .header__box .image img{
+        display: none;
+    }
+    .titles_first{
+        margin-top: 10px;
+    }
+    .develop_item{
+        width: 100%;
+    }
+    .rev{
+        width: calc(100% / 2 - 104px);
+        margin-bottom: 36px;
+    }
+    footer p{
+        left: -18px;
+    }
+    .header__btn{
+        display: none;
+    }
+    .our_dev__row, .utp__flex, .about_us-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .reviews{
+        flex-direction: column;
+        align-items: center;
+    }
+    .callback-icon{
+        display: none;
+    }
+    .circlearrow, .arrow-fill, .img-arrow{
+        display: none;
+    }
+    .about_us-imgcode{
+        top: 38px;
+        left: 1px;
+    }
+    .utp__stick{
+        left: 300px;
+    }
+    .utp__p{
+        top: 20px;
+        width: 70%;
+    }
+    .circle{
+        display: none;
+    }
+    .decor{
+        order: 1;
+        margin-top: 20px;
+    }
+    #our_dev{
+        padding-bottom: 30px;
+    }
+    .services_item{
+        width: calc(50% - 30px);
+        margin-bottom: 15px;
+    }
+    .team img{
+        width: 150px;
+        height: 150px;
+    }
+    .contact a img{
+        width: 25px ;
+        height: 25px;
+    }
+    #our_dev .title{
+        left: 0;
+    }
+    .services{
+        left: 0;
+        position: relative;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 650px) {
+    .heading{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .titles{
+        position: static;
+    }
+    .header__box{
+        padding-top: 0;
+    }
+    .header__textB{
+        margin: 0;
+    }
+    .title{
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .title h2{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 36px;
+    }
+    .header__btn{
+        display: none;
+    }
+    .titles_first{
+        width: auto;
+        text-align: left;
+        height: auto;
+        padding: 3px;
+        position: static;
+        margin-top: 40px;
+    }
+    .header__textB{
+        font-size: 18px;
+    }
+    .our_dev__row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .decor{
+        width: 85%;
+        margin: 0;
+    }
+    .decor img{
+        display: none;
+    }
+    #box .decor, #box1 .decor, #box2 .decor{
+        width: 100%
+    }
+    .form-inner{
+        padding: 20px;
+    }
+    .develop_item{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .services_item{
+        width: 100%;
+        margin-left: 0;
+    }
+    .team{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .contact_all{
+        flex-direction: column;
+    }
+    .reach_us{
+        margin-bottom: 20px;
+    }
+
+    .circle,
+    .form-left-decoration,
+    .form-right-decoration{
+        display: none;
+    }
+    footer {
+        flex-direction: column
+    }
+    .map{
+        width: 100%;
+        order:1;
+        position: relative;
+    }
+    .general{
+        left: 35%;
+        top: 150px;
+    }
+    .general h2{
+        font-size: 18px;
+    }
+
+    .general p{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .contact a img{
+        display: none;
+    }
+    #utp, #our_dev, #box1, #services, #about_com, #about_us{
+        width: 100%;
+    }
+    .about_com-btn{
+        position: static;
+        margin-left: 10px;
+        width: calc(100% - 20px);
+    }
+    .about_com-text{
+        position: relative;
+        top: -4px;
+        width: 100%;
+        text-align: center;
+    }
+    .titles{
+        left: 80px;
+    }
+    .header__textM{
+        font-size: 28px;
+        height: auto;
+        margin: 0;
+        width: 100%;
+    }
+    h1{
+        margin: 10px 0 10px;
+    }
+    .header__box .header__want-btn{
+        position: static;
+        margin-bottom: 10px;
+    }
+    .header__box button span{
+        top: -10px;
+    }
+    .utp__p, .about_us{
+        width: 85%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .utp__stick, #our_dev .utp__stick{
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 4px;
+    }
+    .utp__flex{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 15px;
+    }
+    .utp__img{
+        position: static;
+        width: 70%;
+    }
+    .utp__p{
+        width: 100%;
+        position: static;
+    }
+    #utp{
+        padding-bottom: 20px;
+    }
+    #box1 .utp__stick{
+        position: static;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .about_us-imgcode{
+        display: none;
+    }
+    .rev{
+        margin-bottom: 36px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+    footer img{
+        width: 40%;
+        height: auto;
+    }
+    footer p{
+        left: 0;
+    }
+    .box1__flex{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: static;
+    }
+    .box1__main{
+        position: static;
+    }
+    .box1__btn{
+        font-size: 11px;
+        height: 20px;
+        width: 90px;
+    }
+    .about_us{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .reviews{
+        width: 100%;
+    }
+
+    .rev h3{
+        margin-left: auto;
+        margin-right: auto;
+        position: static;
+    }
+    .rev__team{
+        height: auto;
+    }
+    .rev__text{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rev__maintxt{
+        position: static;
+    }
+    .rev__cont{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer .container {
+        flex-direction: column;
+    }
+    .reach_us{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 470px){
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
